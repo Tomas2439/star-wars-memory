@@ -1,16 +1,57 @@
-# React + Vite
+# 🌌 Jedi Memory Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un juego de memoria interactivo con temática de Star Wars, construido como parte del currículo de **The Odin Project** (Módulo de React). Pon a prueba tu conexión con la Fuerza haciendo clic en las cartas, pero con una regla principal: **¡no hagas clic en la misma carta dos veces!**
 
-Currently, two official plugins are available:
+[🔗 Juega la versión en vivo aquí](ENLACE_A_TU_PROYECTO_EN_VERCEL)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎮 Características del Juego
 
-## React Compiler
+- **Sistema de Puntuación:** El juego rastrea tu puntaje actual y guarda tu "Mejor Puntaje" localmente durante la sesión.
+- **Niveles de Poder (Dificultad):** 
+  - *Padawan:* Un tablero estándar de 8 cartas.
+  - *Jedi:* Un desafío mayor con un tablero de 16 cartas.
+- **Repartidor Inteligente:** Un algoritmo que asegura que, en cada ronda de 5 cartas mostradas, siempre haya al menos una opción válida (no clickeada) para evitar situaciones imposibles de ganar.
+- **Consumo de API Externa:** Las imágenes y nombres de los personajes son obtenidos de manera dinámica utilizando una API de Star Wars.
+- **Inmersión Retro:** Controles de música integrados (volumen ajustable) y diseño responsivo con estética inspirada en el universo de Star Wars.
+- **Modales Personalizados:** Pantallas de victoria y derrota personalizadas (sin usar los molestos alerts del navegador).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React.js** (Functional Components, useState, useEffect, useRef)
+- **Vite** (Herramienta de construcción y entorno de desarrollo local)
+- **JavaScript (ES6+)**
+- **CSS3** (Diseño flexible, Grid y animaciones de hover)
+- **Star Wars API** (Akabab API para obtener los datos e imágenes en formato JSON)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Instalación y Uso Local
+
+Si deseas clonar este repositorio y correr el proyecto en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio:
+´´´bash
+git clone https://github.com/TU_USUARIO/jedi-memory-card.git
+´´´
+2. Navega al directorio del proyecto:
+´´´bash
+    cd jedi-memory-card
+´´´
+3. Instala las dependencias necesarias:
+´´´bash
+    npm install
+´´´
+4. Inicia el servidor de desarrollo local:
+´´´bash
+    npm run dev
+´´´
+5. Abre tu navegador y visita el enlace proporcionado por Vite (generalmente http://localhost:5173).
+
+## 🧠 Aprendizajes del Proyecto
+
+La construcción de esta aplicación fue un gran ejercicio para consolidar conceptos fundamentales de React:
+- Manejo del ciclo de vida de los componentes con useEffect para hacer un fetch inicial a una API.
+- Gestión de estado complejo con múltiples useState para controlar puntuaciones, modos de juego y el estado de la música.
+- Principios de inmutabilidad en React al actualizar arreglos y barajar las cartas.
+- Separación de responsabilidades dividiendo la interfaz en componentes más pequeños y reutilizables (Scoreboard, CardGrid, Card).
+
+---
+*Que la Fuerza te acompañe.* Desarrollo Practico realizado por Tomas2439
