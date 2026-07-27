@@ -2,7 +2,7 @@
 
 Un juego de memoria interactivo con temática de Star Wars, construido como parte del currículo de **The Odin Project** (Módulo de React). Pon a prueba tu conexión con la Fuerza haciendo clic en las cartas, pero con una regla principal: **¡no hagas clic en la misma carta dos veces!**
 
-[🔗 Juega la versión en vivo aquí](ENLACE_A_TU_PROYECTO_EN_VERCEL)
+[🔗 Juega la versión en vivo aquí](https://star-wars-memory.vercel.app/)
 
 ## 🎮 Características del Juego
 
