@@ -28,22 +28,22 @@ Un juego de memoria interactivo con temática de Star Wars, construido como part
 Si deseas clonar este repositorio y correr el proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
-´´´bash
-  git clone https://github.com/Tomas2439/jedi-memory-card.git
-´´´
-3. Navega al directorio del proyecto:
-´´´bash
+```bash
+git clone https://github.com/Tomas2439/jedi-memory-card.git
+```
+2. Navega al directorio del proyecto:
+```bash
    cd jedi-memory-card
-´´´
-4. Instala las dependencias necesarias:
-´´´bash
+```
+3. Instala las dependencias necesarias:
+```bash
    npm install
-´´´
-5. Inicia el servidor de desarrollo local:
-´´´bash
+```
+4. Inicia el servidor de desarrollo local:
+```bash
    npm run dev
-´´´
-6. Abre tu navegador y visita el enlace proporcionado por Vite (generalmente http://localhost:5173).
+```
+5. Abre tu navegador y visita el enlace proporcionado por Vite (generalmente http://localhost:5173).
 
 ## 🧠 Aprendizajes del Proyecto
 
