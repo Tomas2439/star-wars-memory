@@ -29,21 +29,21 @@ Si deseas clonar este repositorio y correr el proyecto en tu máquina local, sig
 
 1. Clona el repositorio:
 ´´´bash
-git clone https://github.com/TU_USUARIO/jedi-memory-card.git
+  git clone https://github.com/Tomas2439/jedi-memory-card.git
 ´´´
-2. Navega al directorio del proyecto:
+3. Navega al directorio del proyecto:
 ´´´bash
-    cd jedi-memory-card
+   cd jedi-memory-card
 ´´´
-3. Instala las dependencias necesarias:
+4. Instala las dependencias necesarias:
 ´´´bash
-    npm install
+   npm install
 ´´´
-4. Inicia el servidor de desarrollo local:
+5. Inicia el servidor de desarrollo local:
 ´´´bash
-    npm run dev
+   npm run dev
 ´´´
-5. Abre tu navegador y visita el enlace proporcionado por Vite (generalmente http://localhost:5173).
+6. Abre tu navegador y visita el enlace proporcionado por Vite (generalmente http://localhost:5173).
 
 ## 🧠 Aprendizajes del Proyecto
 
